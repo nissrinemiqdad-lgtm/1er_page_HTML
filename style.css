@@ -1,27 +1,37 @@
-header{
-    width: 1024px;
-    height: 52px;
-    angle: 0 deg;
-    opacity: 1;
-    background: #FFFFFF;
-    gap : 24px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+header {
+  width: 1024px;
+  height: 52px;
+  opacity: 1;
+  background: #FFFFFF;
+  gap: 24px;
+}
+
 header img {
-    width: 150px;
-    height: 40px;
+  width: 150px;
+  height: 40px;
 }
-header{
-    display: flex;
-    margin-left: 40px;
+
+header {
+  display: flex;
+  margin-left: 40px;
 }
+
 .liste-horizontale {
-  display: flex;          
-  list-style: none;       
-  padding: 0;             
-  margin: 0;              
-  gap: 32px; 
-   
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 32px;
+
 }
+
 .liste-horizontale a {
   text-decoration: none;
   color: #0A1222;
@@ -37,24 +47,24 @@ header{
 
 .liste-horizontale button {
   width: 42;
-    height: 36;
-    angle: 0 deg;
-    opacity: 1;
-    top: 12px;
-    left: 810px;
-    font-family: Inter;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 30px;
-    leading-trim: NONE;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #0A1222;
+  height: 36;
+  angle: 0 deg;
+  opacity: 1;
+  top: 12px;
+  left: 810px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #0A1222;
 
 
 }
 
-.cta button {
+.rejoindre {
   display: flex;
   background: #034BFF;
   color: #FFFFFF;
@@ -63,58 +73,98 @@ header{
   padding: 13px 16px;
   font-family: inherit;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600px;
   white-space: nowrap;
   cursor: pointer;
-  margin-left: 500px;
+  margin-left: 50px;
 
 }
+
 .hero {
   display: flex;
-  background: #050B1A;
+  background: #08111D;
   color: #FFFFFF;
-  width: 1024;
-  height: 461;
-  angle: 0 ;
   opacity: 1;
 
 }
 
 .gauche {
+  margin-right: 40px;
   flex: 1;
-  padding: 64px 52px;
+  width: 1024px;
+  height: 461px;
+  display: grid;
+  padding: 40px;
 }
 
 .gauche h1 {
-  font-size: 64px;
-  font-weight: 800;
-  line-height: 1;
-  margin-bottom: 16px;
-  max-width: 400px;
+  
+  width: 470px;
+  height: 91px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 50px;
+  left: 56px;
+  font-family: Inter;
+  font-weight: 900px;
+  font-style: Black;
+  font-size: 76px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
 }
 
-.LIFE{
+.LIFE {
   color: #034BFF;
 }
 
 .gauche h2 {
-  font-size: 28px;
-  margin: 24px 0 16px;
+  margin-top: 80px;
+  width: 405px;
+  height: 31px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 213px;
+  left: 61px;
+  font-family: Inter;
+  font-weight: 800px;
+  font-style: Extra Bold;
+  font-size: 26px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+
 }
 
 .gauche p {
-  max-width: 480px;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 32px ;
+  margin-top: 20px;
+  width: 398px;
+  height: 51px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 256px;
+  left: 61px;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+
 }
 
-.boutons {
-  display: flex;
-  gap: 16px;
-  margin: 32px 0;
-  gap : 16px;
-  margin-bottom: 32px;
+.event {
+  width: 176;
+  height: 42;
+  angle: 0 deg;
+  opacity: 1;
+  top: 334px;
+  left: 264px;
+  border-radius: 5px;
+  border-width: 1px;
+  border: 1px solid #8EABFF
 }
 
 .boutons a {
@@ -131,23 +181,28 @@ header{
   border-color: #034BFF;
 }
 
-.communaute {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+
+
+
+.communaute p {
+  width: 220px;
+  height: 26px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 403px;
+  left: 181px;
+  font-family: Inter;
+  font-weight: 400px;
+  font-style: Regular;
+  font-size: 11px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }
 
-.communaute span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: #FFFFFF;
-  color: #0A1222;
-  font-weight: 700;
-}
+
+
 
 .droit {
   flex: 1;
@@ -166,46 +221,94 @@ header{
   border-radius: 10px;
 
 }
-.header-nav{
-    width: 50;
-    height: 11;
-    angle: 0 deg;
-    opacity: 1;
-    top: 21px;
-    left: 209px;
+
+.header-nav {
+  width: 50;
+  height: 11;
+  angle: 0 deg;
+  opacity: 1;
+  top: 21px;
+  left: 209px;
 
 }
-.vague{
-   
-font-family: Inter, arial ,sans-serif;
-font-weight: 900px ;
-font-style: Black;
-font-size: 66px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%;
-color : #C7F64A;
+
+.vague {
+
+  font-family: Inter, arial, sans-serif;
+  font-weight: 900px;
+  font-style: Black;
+  font-size: 66px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #C7F64A;
 
 }
-.Recherche {
+
+.cta img {
   display: flex;
- font-family: Inter;
-font-weight: 700;
-font-style: Bold;
-font-size: 30px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%;
-background: #0A1222;
+  width: 42px;
+  height: 36px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 12px;
+  left: 810px;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: black;
+  background-color: #FFFFFF;
+  justify-content: flex-end;
+  margin-left: 300px;
+}
+
+.cta {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.campus {
+  width: 184;
+  height: 42;
+  angle: 0 deg;
+  opacity: 1;
+  top: 334px;
+  left: 61px;
+  border-radius: 5px;
+  background: #034BFF;
+  color: #FFFFFF;
 
 }
-.cta button .Recherche{
-  font-family: Inter;
-font-weight: 700;
-font-style: Bold;
-font-size: 30px;
-leading-trim: NONE;
-line-height: 120%;
-letter-spacing: 0%;
 
+.communaute  {
+  display: flex;
+  margin-top:50px; 
+}
+
+.iten{
+  margin-top: 20px;
+  background-color:#B8C9CF;
+  color: black;
+  border-radius: 360%;
+  font-size: 20px;
+  padding: 9px 9px;
+
+  
+}
+.alphabet{
+  display: flex;
+}
+#letter{
+ background-color: #D7C3B6;
+}
+.communaute > p{
+  color: #FFFFFF;
+  margin-left: 20px;
+  font-size: large;
 }
