@@ -1,9 +1,8 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 header {
   width: 1024px;
@@ -11,6 +10,8 @@ header {
   opacity: 1;
   background: #FFFFFF;
   gap: 24px;
+  display: flex;
+  margin-left: 40px;
 }
 
 header img {
@@ -18,24 +19,18 @@ header img {
   height: 40px;
 }
 
-header {
-  display: flex;
-  margin-left: 40px;
-}
-
 .liste-horizontale {
+  margin-top: 10px;
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0;
   gap: 32px;
-
 }
 
 .liste-horizontale a {
   text-decoration: none;
   color: #0A1222;
-  font-size: 14px;
+  font-size: 15px;
   white-space: nowrap;
 }
 
@@ -43,23 +38,6 @@ header {
   color: #034BFF;
   border-bottom: 2px solid #034BFF;
   padding-bottom: 6px;
-}
-
-.liste-horizontale button {
-  width: 42;
-  height: 36;
-  opacity: 1;
-  top: 12px;
-  left: 810px;
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 30px;
-  line-height: 120%;
-  letter-spacing: 0%;
-  color: #0A1222;
-
-
 }
 
 .rejoindre {
@@ -74,12 +52,14 @@ header {
   font-weight: 600px;
   white-space: nowrap;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 370px;
+  margin-top: -34px;
 
 }
 
 .hero {
   display: flex;
+  justify-content: space-between;
   background: #08111D;
   color: #FFFFFF;
   opacity: 1;
@@ -96,7 +76,7 @@ header {
 }
 
 .gauche h1 {
-  
+
   width: 470px;
   height: 91px;
   opacity: 1;
@@ -119,15 +99,6 @@ header {
   width: 405px;
   height: 31px;
   opacity: 1;
-  top: 213px;
-  left: 61px;
-  font-family: Inter;
-  font-weight: 800px;
-  font-style: Extra Bold;
-  font-size: 26px;
-  line-height: 120%;
-  letter-spacing: 0%;
-
 }
 
 .gauche p {
@@ -137,14 +108,10 @@ header {
   opacity: 1;
   top: 256px;
   left: 61px;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
   line-height: 120%;
   letter-spacing: 0%;
   margin-bottom: 20px;
-
 }
 
 .event {
@@ -187,12 +154,10 @@ header {
   color: #FFFFFF;
 }
 
-
-
-
 .droit {
   flex: 1;
   display: flex;
+  margin-left: 100px;
 }
 
 .droit img {
@@ -228,30 +193,20 @@ header {
 
 }
 
-.cta img {
+.cta a {
   display: flex;
-  width: 42px;
-  height: 36px;
-  opacity: 1;
-  top: 12px;
-  left: 810px;
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 30px;
-  line-height: 120%;
-  letter-spacing: 0%;
   color: black;
   background-color: #FFFFFF;
-  justify-content: flex-end;
   margin-left: 300px;
-}
+  font-family: Inter;
+  font-weight: 700px;
+  font-style: Bold;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 10px;
 
-.cta {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  gap: 20px;
+
 }
 
 .campus {
@@ -266,29 +221,76 @@ header {
 
 }
 
-.communaute  {
+.communaute {
   display: flex;
-  margin-top:50px; 
+  margin-top: 50px;
 }
 
-.iten{
+.iten {
   margin-top: 20px;
-  background-color:#B8C9CF;
+  background-color: #B8C9CF;
   color: black;
   border-radius: 360%;
   font-size: 20px;
-  padding: 9px 9px;
-
-  
+  padding: 10px 10px;
 }
-.alphabet{
+
+.alphabet {
   display: flex;
 }
-#letter{
- background-color: #D7C3B6;
+
+#letter {
+  background-color: #D7C3B6;
 }
-.communaute > p{
+
+.communaute>p {
   color: #FFFFFF;
   margin-left: 20px;
   font-size: large;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 5%;
+  background: #ffffff;
+  margin-right: 100px;
+
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icone {
+  font-size: 32px;
+  color: #1a5cff;
+  line-height: 1;
+  margin-left: 70px;
+  padding: 0;
+  width: auto;
+  margin-right: 20px;
+}
+
+.number {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  color: #222;
+  font-weight: 600px;
+}
+
+.mot {
+  font-size: 0.9rem;
+  color: #0A1222;
+  margin: 0;
+  font-weight: bold;
+}
+.stat p{
+  color: black;
 }
