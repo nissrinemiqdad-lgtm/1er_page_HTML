@@ -297,6 +297,7 @@ header img {
 .stat p{
   color: black;
 }
+
 .soustitre{
   margin-top: 10px;
 font-size: 10px;
@@ -318,6 +319,7 @@ width: 405px;
 height: 51px;
 }
 .Campus{
+  display: flex;
   border-color:#FFFFFF;
   border-style: solid;
   height: 250px;
@@ -330,4 +332,43 @@ background-color: #034BFF;
 color: white;
 margin-left: 60px;
 margin-top: 35px;
+}
+
+.youcode_img{
+  transform: rotate(-10deg); 
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.CAMPUS{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-left: 350px;
+  margin-top: -12px;
+  transform: rotate(-10deg);
+  font-style: bold;
+}
+.les_projet{
+  transform: rotate(10deg);
+  margin-top: -200px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+.prj_{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+  margin-left: 530px;
+  margin-top: -215px;
+  transform: rotate(10deg);
+}
+.COMMUNAUTE{
+  transform: rotate(-10deg);
+  margin-top: 30px;
+  margin-left: 680px;
+  margin-bottom: 50px;
 }
